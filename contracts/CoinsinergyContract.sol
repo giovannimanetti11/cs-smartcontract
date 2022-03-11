@@ -2,6 +2,8 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract Coinsinergy {
-    uint public funds = 1000;
-    int public counter = -10;
+    
+    receive() external payable {
+
+    }
 }
