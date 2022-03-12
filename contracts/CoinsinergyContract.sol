@@ -3,7 +3,6 @@ pragma solidity >=0.4.22 <0.9.0;
 
 contract Coinsinergy {
     
-    receive() external payable {
-
-    }
+    receive() external payable {}
+    function addFunds() external payable {}
 }
